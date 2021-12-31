@@ -1,0 +1,131 @@
+@media screen and (max-width: 320px) {
+  .svg__img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .section {
+    padding: 5rem 0 2rem;
+  }
+  .section__title {
+    text-align: initial;
+  }
+  .svg__img {
+    width: 100%;
+  }
+  .home__container,
+  .about__container,
+  .security__container,
+  .services__container,
+  .app__container,
+  .contact__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .home__container,
+  .about__container,
+  .security__container,
+  .services__container,
+  .app__container,
+  .contact__container {
+    align-items: center;
+  }
+  .home__img {
+    order: 1 !important;
+  }
+  .home__data {
+    padding-top: 90px;
+  }
+  .about__data,
+  .security__data,
+  .app__data,
+  .contact__desc {
+    text-align: initial;
+  }
+  .about__img,
+  .app__img {
+    order: -1;
+  }
+  .services__medium {
+    text-align: center !important;
+  }
+  .app__btns {
+    justify-content: flex-start;
+  }
+  .app__btn {
+    padding: 7px 9px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .nav {
+    &-items {
+      position: static;
+    }
+    &-list {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      column-gap: 30px;
+    }
+    .menu-toggle {
+      display: none;
+    }
+    .button-order {
+      display: block;
+    }
+  }
+  .services__container {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .home__container {
+    padding: 5rem 0 1.5rem;
+  }
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 968px) {
+  .section {
+    padding: 6rem 0 2rem;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home__title {
+    font-size: 2.2rem;
+  }
+  .section__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .home__container,
+  .about__container,
+  .security__container,
+  .app__container,
+  .contact__container {
+    align-items: center;
+    column-gap: 5rem;
+  }
+  .footer__container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media screen and (min-width: 991px) {
+  .home__img {
+    width: 540px;
+  }
+  .services__img {
+    width: 100%;
+  }
+  .home__desc {
+    padding-right: 4rem;
+  }
+  .footer__container {
+    column-gap: 2rem;
+  }
+  .scroll-top {
+    right: 3rem !important;
+  }
+}

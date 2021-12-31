@@ -1,0 +1,26 @@
+.home {
+  &__img {
+    display: block;
+    padding-top: 80px;
+  }
+  &__container {
+    row-gap: 1.7rem;
+  }
+  &__title {
+    font-size: $biggest-font;
+    font-weight: 700;
+  }
+  &__desc {
+    font-size: $smallest-font;
+    margin: 10px 0 30px;
+    color: $text-color-light;
+    line-height: 1.6;
+  }
+  &__button {
+    @extend .button;
+    @include bordered(#fff8f4, 1px, $text-color);
+  }
+  &__button:hover {
+    background-color: #82be41;
+  }
+}

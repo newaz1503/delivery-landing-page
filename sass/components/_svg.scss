@@ -1,0 +1,12 @@
+.svg {
+  &__color {
+    fill: $first-color;
+  }
+  &__blob {
+    fill: $first-color-light;
+  }
+  &__img {
+    width: 300px;
+    align-self: center;
+  }
+}

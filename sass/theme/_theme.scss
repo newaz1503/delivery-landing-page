@@ -1,0 +1,10 @@
+.theme-button {
+  position: absolute;
+  right: 1.5rem;
+  top: 2.3rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+body.dark-theme {
+  background-color: darken($color: #000000, $amount: 10%);
+}

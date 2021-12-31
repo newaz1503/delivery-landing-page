@@ -1,0 +1,4 @@
+@mixin bordered($color, $width, $text-clr) {
+  border: $width solid $color;
+  color: $text-clr;
+}

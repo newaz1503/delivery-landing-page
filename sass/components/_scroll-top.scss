@@ -1,0 +1,32 @@
+.scroll-top {
+  position: fixed;
+  right: 1.365rem;
+  bottom: -15%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 100;
+
+  a {
+    color: initial;
+  }
+}
+.show-scroll {
+  bottom: 2.5rem;
+}
+
+//custom scrollbar
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+  background-color: rgb(224, 224, 224);
+
+  &-thumb {
+    background-color: rgb(177, 177, 177);
+    border-radius: 0.5rem;
+
+    &:hover {
+      background-color: $text-color-light;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.contact {
+  &__head {
+    text-align: center;
+  }
+  &__desc {
+    font-size: $smallest-font;
+    color: $text-color;
+  }
+  address {
+    font-style: normal;
+    font-size: $smallest-font;
+  }
+  &__address {
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  &__address:last-child {
+    margin-bottom: 0;
+  }
+  &__info {
+    font-weight: initial;
+    color: $text-color-light;
+    margin-left: 3px;
+  }
+  &__btn {
+    @extend .button;
+  }
+}

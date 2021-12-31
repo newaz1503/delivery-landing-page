@@ -1,0 +1,26 @@
+.app {
+  &__container {
+    text-align: center;
+    row-gap: 35px;
+  }
+  &__desc {
+    color: $text-color-light;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  &__btns {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+  }
+  &__btn {
+    @extend .button;
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .app-icon {
+    font-size: 16px;
+    margin-right: 3px;
+    color: #2e2e2e;
+  }
+}

@@ -1,0 +1,18 @@
+.section {
+  padding: 3.5rem 0 1rem;
+  &__title {
+    text-align: center;
+    font-size: $h3-font;
+    color: $title-color;
+    margin-bottom: 15px;
+  }
+}
+.container {
+  width: calc(100% - 25px);
+  max-width: 968px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-gap: 1.5rem;
+}
